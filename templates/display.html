@@ -1,0 +1,10 @@
+{%- for item in tree.children recursive %}
+     <div class="well well-sm">
+        <li>
+            <a href="/download/{{ item.path }}">{{ item.name }}</a>
+            {%- if item.children -%}
+                <ul>{{ loop(item.children) }}</ul>
+            {%- endif %}
+        </li>
+    </div>
+{%- endfor %}
