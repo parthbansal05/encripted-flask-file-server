@@ -1,2 +1,2 @@
-# encripted-filesserver
-uploading and downloading files securely 
+# Encripted Flask Fileserver
+upload and download files securely 
